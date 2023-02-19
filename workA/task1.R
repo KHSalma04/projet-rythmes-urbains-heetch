@@ -57,5 +57,5 @@ mainNeib <-nestedPts %>%
 
 mainNeib <-nestedPts %>% 
   group_by(Hour, NEIB) %>% 
-  summarize(NBPDR=n())
+  summarize(NBDRiver=n())
 
