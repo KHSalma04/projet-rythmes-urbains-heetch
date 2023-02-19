@@ -55,7 +55,7 @@ mainNeib <-nestedPts %>%
 
 # 8. Pour chaque heure, pour chaque quartier, calculer le nombre de chauffeurs
 
-mainNeib <-nestedPts %>% 
+mainNeibN <-nestedPts %>% 
   group_by(Hour, NEIB) %>% 
   summarize(NBDRiver=n())
 
